@@ -1,0 +1,79 @@
+body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: radial-gradient(circle at top, #0b0c10, #000);
+      color: white;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #00eaff;
+      text-shadow: 0 0 10px #00eaff;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    ul {
+      list-style-type: "✨ ";
+      padding-left: 1.5rem;
+    }
+
+    .botones {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .btn {
+      background: #00eaff;
+      color: black;
+      border: none;
+      padding: 12px 20px;
+      margin: 0 10px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: transform 0.2s;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      background: #00bcd4;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background: rgba(255,255,255,0.05);
+      padding: 1rem;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0, 234, 255, 0.4);
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
